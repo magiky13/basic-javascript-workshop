@@ -88,5 +88,28 @@ function factorial(number) {
   return number * factorial(number - 1);
 } 
 
-console.log(factorial(-10))
+//console.log(factorial(-10))
 
+//e10
+
+function longestWord(string) {
+    var words = string.split(" ");
+    
+}
+
+//e11
+
+function capitalizeWords(phrase) {
+    var firstArray = phrase.split(" ");
+    var finalArr = [];
+    for(var i = 0; i < firstArray.length; i++){
+        var firstLetter = firstArray[i].charAt(0).toUpperCase();
+        var restOfWord = firstArray[i].substring(1).toLowerCase();
+        var finalWord = firstLetter + restOfWord;
+        finalArr.push(finalWord);
+        var finalPhrase = finalArr.join(" ");
+    }
+   return finalPhrase;
+}
+
+console.log(capitalizeWords("allo, jaime mAnger des bananes!"))
