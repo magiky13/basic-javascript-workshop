@@ -43,7 +43,26 @@ else {
 
 //console.log(multiplyTwoNumbers(10, 60))
 
-//e6
+//function that takes 2 numbers and a string, should be #6
+
+function simpleMath (number1, number2, string) {
+    if(string === "add"){
+        return number1 + number2
+    }
+    else if(string === "mult") {
+        return number1*number2
+    }
+    else if(string === "subtract") {
+        return number1 - number2
+    }
+    else if(string === "div") {
+        return number1 / number2
+    }
+}
+
+console.log(simpleMath(3, 4, "subtract"))
+        
+//e7
 
 function repeatStringByNumber(string, number) {
     return string.repeat(number);
@@ -51,9 +70,11 @@ function repeatStringByNumber(string, number) {
 
 
 //console.log(repeatStringByNumber("ssss", 8))
+//e8
 
 function inverseString(string) {
     return string.split("").reverse().join("");
 }
 
-console.log(inverseString("abcdefg"))
+//console.log(inverseString("abcdefg"))
+
