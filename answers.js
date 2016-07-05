@@ -60,7 +60,7 @@ function simpleMath (number1, number2, string) {
     }
 }
 
-console.log(simpleMath(3, 4, "subtract"))
+//console.log(simpleMath(3, 4, "subtract"))
         
 //e7
 
@@ -70,11 +70,23 @@ function repeatStringByNumber(string, number) {
 
 
 //console.log(repeatStringByNumber("ssss", 8))
-//e8
+//e7 but should be e8
 
 function inverseString(string) {
     return string.split("").reverse().join("");
 }
 
 //console.log(inverseString("abcdefg"))
+
+function factorial(number) {
+  if(number<0) {
+      return "NOOOOOOOOOOOOOOOOOO"
+  }
+  else if (number === 0) {
+    return 1;
+  }
+  return number * factorial(number - 1);
+} 
+
+console.log(factorial(-10))
 
