@@ -41,4 +41,13 @@ else {
 }
 }
 
-console.log(multiplyTwoNumbers(10, 60))
+//console.log(multiplyTwoNumbers(10, 60))
+
+//e6
+
+function repeatStringByNumber(string, number) {
+    return string.repeat(number);
+}
+
+
+console.log(repeatStringByNumber("ssss", 8))
