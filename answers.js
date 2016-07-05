@@ -29,5 +29,16 @@ else {
 }
 }
 
-console.log(addTwoNumbers(23, "sdsfsdf"))
+//console.log(addTwoNumbers(23, "sdsfsdf"))
 
+//e5
+function multiplyTwoNumbers(numberOne, numberTwo) {
+    if(isFinite(numberOne) && isFinite(numberTwo)) {
+    return numberOne*numberTwo
+}
+else {
+        return ("Use Numbers!")
+}
+}
+
+console.log(multiplyTwoNumbers(10, 60))
