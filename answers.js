@@ -50,4 +50,10 @@ function repeatStringByNumber(string, number) {
 }
 
 
-console.log(repeatStringByNumber("ssss", 8))
+//console.log(repeatStringByNumber("ssss", 8))
+
+function inverseString(string) {
+    return string.split("").reverse().join("");
+}
+
+console.log(inverseString("abcdefg"))
