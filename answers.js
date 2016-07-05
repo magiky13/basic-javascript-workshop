@@ -18,5 +18,16 @@ function findCharacter(input, num) {
     // var characterToFind = onlyCharacters.substring(numberToFind -1, numberToFind);
 }
 
-console.log(findCharacter("usa5", 1))
+//console.log(findCharacter("usa5", 1))
+
+function addTwoNumbers(numberOne, numberTwo) {
+    if(isFinite(numberOne) && isFinite(numberTwo)) {
+    return numberOne + numberTwo
+}
+else {
+        return ("Use Numbers!")
+}
+}
+
+console.log(addTwoNumbers(23, "sdsfsdf"))
 
