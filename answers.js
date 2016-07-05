@@ -129,3 +129,20 @@ function largestNumber(numbers) {
 }
 
 //console.log(largestNumber([100, 229292, 3939]))
+//e13
+
+//e14
+function sumOfArray(numbers) {
+    var sum = 0;
+    for(var i = 0; i < numbers.length; i++){
+        sum = sum + numbers[i];
+        
+    }
+    return sum;
+}
+
+console.log(sumOfArray([1,2,3,4,5,6,7,8]))
+
+
+//e15
+
