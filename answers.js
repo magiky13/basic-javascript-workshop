@@ -154,5 +154,32 @@ function sumOfArray(numbers) {
 
 //e15
 
+function combinedArray (list1,list2){     
+    var uniques = [];  
+    
+    list1.forEach(function(ele){         
+        if(list2.indexOf(ele) > -1) {  //match = indexOf will result in -1                      
+            
+        } 
+        else {             
+            uniques.push(ele);         
+            
+        }    
+        });     
+        
+        list2.forEach(function(ele1){         
+            if(list1.indexOf(ele1) > -1) { 
+                } else {             
+                    uniques.push(ele1);         
+                    
+                }     
+            
+        });   
+        
+        return uniques; 
+    
+};  
+
+console.log(combinedArray([1,3,5,9,11],[2,4,5,6,9]));
 
 
