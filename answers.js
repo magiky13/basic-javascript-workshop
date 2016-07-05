@@ -11,5 +11,12 @@ function lastCharacter(string) {
 
 //console.log(lastCharacter(""))
 
+function findCharacter(input, num) {
+    return input.charAt(num);
+    // var numberToFind = isFinite(input);
+    // var onlyCharacters = isNaN(input);
+    // var characterToFind = onlyCharacters.substring(numberToFind -1, numberToFind);
+}
 
+console.log(findCharacter("usa5", 1))
 
