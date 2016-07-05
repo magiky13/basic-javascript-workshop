@@ -95,7 +95,7 @@ function factorial(number) {
 function longestWord(string) {
     var str = string.split(" ");
     var longest = 0;
-    var word = null;
+    var word = null; //could also be one variab
     for (var i = 0; i < str.length; i++) {
         if (longest < str[i].length) {
             longest = str[i].length;
@@ -105,7 +105,7 @@ function longestWord(string) {
     return word;
 }
 
-console.log(longestWord("alloa dkmd dejnfkenf jfnkenf"))
+//console.log(longestWord("alloa dkmd dejnfkenf jfnkenf"))
 
 //e11
 
@@ -124,3 +124,8 @@ function capitalizeWords(phrase) {
 
 //console.log(capitalizeWords("allo, jaime mAnger des bananes!"))
 
+function largestNumber(numbers) {
+    return Math.max.apply(null, numbers);
+}
+
+//console.log(largestNumber([100, 229292, 3939]))
