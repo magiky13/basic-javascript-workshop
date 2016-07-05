@@ -129,7 +129,16 @@ function largestNumber(numbers) {
 }
 
 //console.log(largestNumber([100, 229292, 3939]))
+
 //e13
+
+function unfileteredArr(arr){
+    var trueArr = arr.filter(Boolean)
+    return trueArr
+}
+
+//console.log(unfileteredArr([1,35,6,77,7]))
+
 
 //e14
 function sumOfArray(numbers) {
@@ -141,8 +150,9 @@ function sumOfArray(numbers) {
     return sum;
 }
 
-console.log(sumOfArray([1,2,3,4,5,6,7,8]))
-
+//console.log(sumOfArray([1,2,3,4,5,6,7,8]))
 
 //e15
+
+
 
