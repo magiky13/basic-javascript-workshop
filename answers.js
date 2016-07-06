@@ -180,6 +180,18 @@ function combinedArray (list1,list2){
     
 };  
 
-console.log(combinedArray([1,3,5,9,11],[2,4,5,6,9]));
+//console.log(combinedArray([1,3,5,9,11],[2,4,5,6,9]));
+
+//end of regular exercises
+
+
+function mysteryFunction(arrAy, easyFunction) {
+    for(var i = 0; i < arrAy.length; i++) {
+        easyFunction = arrAy[i].charAt(0).toUpperCase();
+        easyFunction(arrAy[i]);
+    }
+}
+
+console.log(mysteryFunction([max, simon, jean]))
 
 
